@@ -1,0 +1,15 @@
+===== Encapsulation Source code Pattern =====
+1. field 앞에 private
+  : 다른 클래스에서 해당 클래스에 접근하는 것이 차단
+    (직접적으로 값을 입력 못하게 막아둔다) invaild한 값이 들어가기 때문
+
+2. method : setter() / getter() 앞에는 public 
+   ex)  public void setMonth(int month){
+            this.month = month;
+	    }
+        public int getMonth(){
+            return month;
+        }
+
+3. setter(){ 첫라인에 
+(필드에 값이 주입되기 전에 넘어온 값이 타당한 값인지를 알아보는 제어문을 달자.)
