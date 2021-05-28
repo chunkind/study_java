@@ -1,0 +1,5 @@
+Map 방식으로 객체를 저장하는것은
+key-value가 쌍으로 엮어서 저장되는 방식
+이때 key값은 중복되면 안된다...순서는 역시 없다
+자식으로 HashMap, Properties가 있다
+현재 HashMap을 사용하지 Hastable을 사용하지 않는다
